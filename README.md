@@ -2,7 +2,7 @@
 
 [![Static Badge](https://img.shields.io/badge/EhBASIC-v2.22p5.7-orange)](https://github.com/Klaus2m5/6502_EhBASIC_V2.22/tree/master/patched)&nbsp;
 [![Static Badge](https://img.shields.io/badge/architecture-Ben_Eater_6502-blue)](https://eater.net/6502)&nbsp;
-[![Static Badge](https://img.shields.io/badge/EhBASIC-v2.22p5.5-IMDLABS-purple)](https://github.com/idunmore/ehbasic)
+[![Static Badge](https://img.shields.io/badge/EhBASIC-v2.22p5.7--IMDLABS-purple)](https://github.com/idunmore/ehbasic)
 
 Or perhaps a better title would be:
 
