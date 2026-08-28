@@ -1,4 +1,4 @@
-## 101 BASIC Computer Games
+## 101 **Eh**BASIC Computer Games
 
 [![Static Badge](https://img.shields.io/badge/EhBASIC-v2.22p5.7-orange)](https://github.com/Klaus2m5/6502_EhBASIC_V2.22/tree/master/patched)&nbsp;
 [![Static Badge](https://img.shields.io/badge/architecture-Ben_Eater_6502-blue)](https://eater.net/6502)&nbsp;
@@ -8,9 +8,9 @@ Or perhaps a better title would be:
 
 **"101 BASIC Computer Games for the Ben Eater 6502 running EhBASIC"**
 
-This is a "project" based on David Ahl's, now-classic, book of type-in games for early versions of BASIC, in which I have completed porting ***ALL*** of them in a **ready-to-run** form for the [Ben Eater 6502](https://eater.net/6502) (and similar) computer, running [Lee Davidson's](http://retro.hansotten.nl/6502-sbc/lee-davison-web-site/) EhBASIC.
+This is a "project" based on David Ahl's, now-classic, book of type-in games for early versions of BASIC, for which I have completed porting ***ALL*** of them in a **ready-to-run** form for the [Ben Eater 6502](https://eater.net/6502) (and similar) computer, running [Lee Davidson's](http://retro.hansotten.nl/6502-sbc/lee-davison-web-site/) EhBASIC.
 
-There are various ports of EhBASIC avaialble.  I recommend either [Klaus Dormann's patched EhBASIC v2.22p5](https://github.com/Klaus2m5/6502_EhBASIC_V2.22/tree/master/patched), or [my own](https://github.com/idunmore/ehbasic) (which is based on Klaus's but with various additions and built _specifically_ to run on a stock Ben Eater 6502 build), without needing to be able to code yourself.
+There are various ports of EhBASIC avaialble.  I recommend either [Klaus Dormann's patched EhBASIC v2.22p5](https://github.com/Klaus2m5/6502_EhBASIC_V2.22/tree/master/patched), or [my own](https://github.com/idunmore/ehbasic) (which is based on Klaus's but with various additions and built _specifically_ to run on a stock Ben Eater 6502 build).
 
 ### About the Source Material
 The original source of these programs was as printed listings in a book, David Ahl's "[101 BASIC Computer Games](https://archive.org/details/101basiccomputer0000davi)", the first printing for which was in July 1973; over 50 years ago.
@@ -34,7 +34,7 @@ I consider Maury's work as a wonderful act of preservation.
 
 ## What *I've* Done Here
 
-Well, for one thing, this is my second time porting this set of programs.  The first used Microsoft BASIC v1.1 from 1977 as the target.  The vast majority of that (>95%) was done manually (i.e., without AI assistance/automation).
+Well, for one thing, this is my **second time** porting this set of programs.  The [first](https://github.com/idunmore/101-basic-computer-games) targetted Microsoft BASIC v1.1 from 1977.  The vast majority of _that_ (>95%) was done manually (i.e., without AI assistance/automation).
 
 My purpose, there, was more about nostalgia-driven fun than preservation:
 
@@ -50,7 +50,7 @@ And, of course, sometimes you just *[want to play those games](https://www.youtu
 
 - As I have already corrected any issues arising from the OCR conversion, which was done via reference to scans of the original book or, where that wasn't legible/clear, my own fixes, I do not wish to repeat that!  So, I am going to use my ported MS-BASIC versions as the sources for _those_ corrections.
 
-The end result should, thus, be a port that utilities EhBASIC in full spirit/function, while be dramatically less work.
+The end result should, thus, be a port that utilities EhBASIC in full spirit/function, while being dramatically less work that the first iteration.  Indeed, with the EhBASIC ports now complete, I can compare them directly; the original cycle took ~2 weeks, this one took ~2 days.
 
 ### An Exception ... Sort of ...
 Only one program, "`spcwar.bas`", which is a rather nice version of Mike Mayfield's original, and classic, "Star Trek" program, fails the "runs on a standard Ben Eater 6502 build" test.  And that is simply because the code alone simply **doesn't fit** into the available memory of a BE6502 build with 16KB of RAM, and that's without the space the executing code needs for arrays and variables, etc.
@@ -85,7 +85,7 @@ There **will** be some.
 
 There certainly are in the original listings!
 
-Per above, I have played all of these games, to completion, as both winner and loser.  And that was both enjoyable and fascinating.  But there's no chance that there aren't lurking bugs; be they a result of these porting efforts, or logic issues in the original code that have then been ported faithfully!
+Per the above, I have played all of these games, to completion, as both winner and loser.  And that was both enjoyable and fascinating.  But there's no chance that there aren't lurking bugs; be they a result of these porting efforts, or logic issues in the original code that have then been ported faithfully!
 
 
 ### What Was Needed (on a Per-Program Basis):
@@ -103,7 +103,7 @@ Each program includes a like-named `.md` file that details what was done both fr
 
 ### Running these Games
 
-The easiest way to run these games is to copy-and-paste the code directly from the GitHub file view into the Serial Terminal interface connected to your "BE6502", while it is running EhBASIC.  If you've not gone as far as implementing flow-control, and input buffering, you'll want to use my version of EhBASIC, as it fully supports those features.  If you use a different build, you'll need to set your "character pacing" in your terminal program to a value that prevents the data coming into the computer too fast (for the largest programs you'll need line pacing of 0.6s and character pacing of 0.02s).
+The easiest way to run these games is to copy-and-paste the code directly from the GitHub file view into the Serial Terminal interface connected to your "BE6502", while it is running EhBASIC.  If you've gone as far as implementing flow-control, and input buffering, you'll want to use my version of EhBASIC, as it fully supports those features.  If you use a different build, you'll need to set your "character pacing" in your terminal program to a value that prevents the data coming into the computer too fast (for the largest programs you'll need line pacing of 0.6s and character pacing of 0.02s).
 
 You could, of course, **type** the code in yourself, but that might be a bit *too* much of a nostalgia trip even for me.
 
@@ -116,16 +116,17 @@ Why a copy, not a fork?
 
 ## AI Usage
 
-For my MS-BASIC ports, this was entirely minimal.  Less than 5% of the files there were touched by AI, and they weren't all source code files.
+For my original Microsoft BASIC ports, this was entirely minimal.  Less than 5% of the files there were touched by AI, and they weren't all source code files.
 
 The joy, for me, in retro-computing and programming is about nostalgia.  Porting these programs was, while at times frustrating (as all programming efforts can be), very fulfilling.  It was a transport back-in-time.  It was an experience.  And carried some most enjoyable "learnings" (learning is my very favorite thing to do).
 
 *Turning it over to AI would have robbed me of that.*
 
-However, I've already had my programming nostalgia out of this little batch of BASIC programs, so this time AI is going to **do as much of the work as possible**.
+However, I've **already had my programming nostalgia** out of this little batch of BASIC programs, so this time AI has done **as much of the work as possible**.
 
-In fact here I'm going to give it all of Maury's OCR/transcribed files, all of my MS-BASIC ports (purely to use for OCR/transcription corrections), and run an agentic AI process to do the conversions to EhBASIC.  If I like the end-result, I'll keep it and make the repo public ... if not, it'll never see the light of day.
+In fact here I gave the AI (Open AI Codex, Sol 5.6, High) all of Maury's OCR/transcribed files, all of my manually-done MS-BASIC ports (purely to use as a short cut for OCR/transcription corrections), a copy of the [EhBASIC manual](http://retro.hansotten.nl/uploads/leedavison/Enhanced_6502_BASIC_reference_manual.pdf), and then ran an agentic AI process to do the conversions to EhBASIC en-masse.
 
+When that was done, I tested the results, fixed any minor issues that remained myself or prompted the AI to do it.  And then committed the results, and the .md file describing the corrections and porting steps.  The intial AI porting pass took an hour or so end-to-end, and the whole process, including testing on live hardware, was done over a 2-day, on-and-off, span.
 
 ## The "Bunny Bonus"
 
